@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: debug
+# key: sd
+# --
+System.debug(${1:val});
+$0

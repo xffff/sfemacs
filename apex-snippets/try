@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: try
+# key: try
+# --
+try {
+    $0
+} catch (${1:Exception e}) {
+    System.debug("Error: " + e.getMessage());
+}

@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: define test method
+# key: tm
+# --
+@isTest
+public static void test${1:Name}() {
+    $0
+}

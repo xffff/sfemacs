@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: soql
+# key: soq
+# --
+[SELECT ${1:attributes} FROM ${2:type} WHERE ${3:constraints}];
+$0

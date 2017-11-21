@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: soql-map
+# key: qum
+# --
+Map<Id, ${1:type}> ${2:var} = new Map<Id, $1> ([SELECT ${3:attributes} FROM $1 WHERE ${4:constraint}]);
+$0

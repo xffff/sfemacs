@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: define test method
+# key: ts
+# --
+@testSetup
+public static void setup() {
+    $0
+}

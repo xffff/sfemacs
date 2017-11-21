@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: class
+# key: nc
+# --
+public ${1:without sharing} class ${2:`(file-name-base
+                    (or (buffer-file-name)
+                        (buffer-name)))`} {
+    ${3:public} ${4:`(file-name-base
+                    (or (buffer-file-name)
+                        (buffer-name)))`} (${5:args}) {
+        $0                        
+    }
+}
