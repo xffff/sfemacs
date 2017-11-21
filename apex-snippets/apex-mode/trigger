@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: trigger
+# key: nt
+# --
+trigger ${1:object}Trigger on $1 (${2:contexts}) {
+        $0                        
+}
